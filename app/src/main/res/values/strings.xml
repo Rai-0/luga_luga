@@ -4,4 +4,22 @@
     <string name="text_email">Email</string>
     <string name="text_senha">Senha</string>
     <string name="text_calcular">Calcular</string>
+
+    <string name="tv_produto">Nome </string>
+    <string name="tv_preco">R$ 00,00 </string>
+    <string name="tv_descrisao">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</string>
+    <string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
+    <string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string><string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string><string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string><string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string><string name="tv_produto">Nome Produto</string>
+    <string name="tv_preco">R$ 00,00</string>
+    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
 </resources>

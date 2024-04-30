@@ -1,4 +1,4 @@
-package com.example.lugaluga;
+package com.example.lugaluga.model;
 
 public class Filme {
     private String nome;
