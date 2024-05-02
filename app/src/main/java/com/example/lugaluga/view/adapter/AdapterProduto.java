@@ -9,6 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lugaluga.R;
+import com.example.lugaluga.model.Produto;
+
+import java.util.List;
 
 public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ViewHolder> {
 
@@ -21,40 +24,16 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ViewHold
     @NonNull
     @Override
     public AdapterProduto.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+        View listaProdutos = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_produto, parent, false);
+
+        return new ViewHolder(listaProdutos);
     }
 
     @Override
     public void onBindViewHolder(@NonNull AdapterProduto.ViewHolder holder, int position) {
         holder.nomeProd.setText(produtoList.get(position).getNome());
-        holder.precoProd.setText(Stringtring.valueOf ;
+        holder.precoProd.setText(String.valueOf(produtoList.get(position).getPreco())) ;
         holder.descProd.setText(produtoList.get(position).getNome());
-    }
-
-    @Override
-    public int getItemCount() {
-        return 0;
-    }
-}
-
-import org.w3c.dom.Text;
-
-public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ViewHolder> {
-    @NonNull
-    @Override
-    public AdapterProduto.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-
-        View listaProdutos = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.adapter_produto, parent, false);
-
-        return new ViewHolder(listaProdutos);
-    }
-
-
-
-    @Override
-    public void onBindViewHolder(@NonNull AdapterProduto.ViewHolder holder, int position) {
-
     }
 
     @Override
