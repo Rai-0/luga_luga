@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -50,6 +51,21 @@ public class MainActivity extends AppCompatActivity {
 
                             @Override
                             public void onItemClick(View view, int position) {
+                                Intent intent = new Intent(MainActivity.this, ProdutoActivity.class);
+                                intent.putExtra("produto", produtoList.get(position));
+                                startActivity(intent);
+
+                            }
+
+                            @Override
+                            public void onLongItemClick(View viem, int position){
+                                Toast.makeText(getApplicationContext(), produtoList.get(position).getStatus(), Toast.LENGTH_SHORT).show();
+
+                            }
+
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+
 
 
                             }
@@ -59,13 +75,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void CriarListaProdutos() {
+    }
+
     public void CriarListProdutos(){
         Produto produto;
 
-        produto = new Produto ("Computador", 1.000.00, "Descricao", 10, "d");
+        produto = new Produto ("Computador", 1.000,"Oi", 4, "Disponivel");
         produtoList.add(produto);
 
-        produto = new Produto ("Celular", 1.000.00, "Descricao", 10, "d");
+        produto = new Produto ("Celular", 1.000,"oiu98y", 1, "dis");
         produtoList.add(produto);
 
         produto = new Produto ("Ventilador", 600, "Descricao", 10, "d");
