@@ -18,13 +18,13 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Lugaluga.NoActionBar" />
         <activity
-            android:name=".view.CadastroUser"
+            android:name=".view.CadastroUsuarioActivity"
             android:exported="false" />
         <activity
             android:name=".view.ProdutoActivity"
             android:exported="false" />
         <activity
-            android:name=".view.LoginActivity2"
+            android:name=".view.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

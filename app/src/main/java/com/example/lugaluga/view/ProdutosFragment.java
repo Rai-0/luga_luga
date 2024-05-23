@@ -125,22 +125,93 @@ public class ProdutosFragment extends Fragment {
     }
 
     public void CriarListProdutos() {
-        Produto produto;
+        Produto produto = new Produto (
+                "Iphone 13",
+                200.00,
+                "Iphone 64gb",
+                "Disponivel",
+                10);
 
-        produto = new Produto("Computador", 1.000, "Oi", 4, "Disponivel");
         produtoList.add(produto);
 
-        produto = new Produto("Celular", 1.000, "oiu98y", 1, "dis");
+        produto = new Produto (
+                "Fone",
+                50.00,
+                "Bluetooth",
+                "Indisponivel",
+                120);
+
         produtoList.add(produto);
 
-        produto = new Produto("Ventilador", 600, "Descricao", 10, "d");
+        produto = new Produto (
+                "Notebook",
+                1000.00,
+                "Dell",
+                "Disponivel",
+                30);
+
         produtoList.add(produto);
 
-        produto = new Produto("Chapinha", 90, "Descricao", 10, "d");
+        produto = new Produto (
+                "Televisao",
+                280.00,
+                "Samsung",
+                "Indisponivel",
+                20);
+
         produtoList.add(produto);
 
-        produto = new Produto("Alexa", 800, "Descricao", 10, "d");
+        produto = new Produto (
+                "Geladeira",
+                150.00,
+                "Brastemp",
+                "Disponivel",
+                18);
+
         produtoList.add(produto);
+
+        produto = new Produto (
+                "Fogao",
+                130.00,
+                "Eletrolux",
+                "Indisponivel",
+                15);
+
+        produtoList.add(produto);
+
+        produto = new Produto (
+                "Mouse",
+                50.00,
+                "Bluetooth",
+                "Disponivel",
+                40);
+
+        produtoList.add(produto);
+
+        produto = new Produto (
+                "Micro-Ondas",
+                125.00,
+                "Eletrolux",
+                "Indisponivel",
+                14);
+
+        produtoList.add(produto);
+
+        produto = new Produto (
+                "Ar condicionado",
+                250.00,
+                "Consul",
+                "Disponivel",
+                17);
+
+        produtoList.add(produto);
+
+        produto = new Produto (
+                "Ventilador",
+                50.00,
+                "Arno",
+                "Disponivel",
+                10);
 
         produtoList.add(produto);
     }

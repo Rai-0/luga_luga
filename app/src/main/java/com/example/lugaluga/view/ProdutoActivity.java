@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,7 @@ public class ProdutoActivity extends AppCompatActivity {
 
     private Button btnAluga;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,8 @@ public class ProdutoActivity extends AppCompatActivity {
         precoProduto = findViewById(R.id.tv_precoProduto);
         descProduto = findViewById(R.id.tv_descProduto);
         btnAluga = findViewById(R.id.alugaBtn);
+
+        View btnAlugar = findViewById(R.id.alugaBtn);
 
         produto = getIntent().getExtras().getParcelable("produto");
 
