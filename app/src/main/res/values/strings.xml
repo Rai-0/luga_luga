@@ -7,23 +7,67 @@
 
     <string name="tv_produto">Nome </string>
     <string name="tv_preco">R$ 00,00 </string>
-    <string name="tv_descrisao">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
-    <string name="tv_produto">Nome Produto</string>
-    <string name="tv_preco">R$ 00,00</string>
-    <string name="tv_descricao">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</string>
+    <string name="tv_descricao">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</string>
+
+    <string name="text_cep">Cep</string>
+    <string name="text_cpf">Cpf</string>
+    <string name="text_nome">Nome</string>
+    <string name="text_logra">Logradouro</string>
+    <string name="text_nume">Número</string>
+    <string name="text_com">Complemento</string>
+    <string name="text_bair">Bairro</string>
+    <string name="text_cida">Cidade</string>
+    <string name="text_Assunto">Assunto</string>
+    <string name="text_Mensagem">Mensagem</string>
+    <string name="input_Enviar">Enviar</string>
+    <string name="input_Telefone">Telefone:1000000000</string>
+    <string name="input_sobre">Sobre Nós</string>
+
+    <string-array name="uf_cadastro">
+
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_">Cidade</string>
+
 </resources>

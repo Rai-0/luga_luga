@@ -19,12 +19,13 @@ import com.example.lugaluga.RecyclerItemClickListener;
 import com.example.lugaluga.model.Produto;
 import com.example.lugaluga.view.adapter.AdapterProduto;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private AdapterProduto adapterProduto;
-    private List<Produto> produtoList;
+    private List<Produto> produtoList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

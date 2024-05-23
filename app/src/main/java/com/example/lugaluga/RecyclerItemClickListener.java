@@ -53,3 +53,9 @@ public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListen
                 if (child != null && mListener != null) {
                     mListener.onLongItemClick(child, recyclerView.getChildAdapterPosition(child));
                 }
+            }
+        });
+
+    }
+
+}

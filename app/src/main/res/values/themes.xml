@@ -2,8 +2,19 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Lugaluga" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- <item name="colorPrimary">@color/</item> -->
+
+
     </style>
 
     <style name="Theme.Lugaluga" parent="Base.Theme.Lugaluga" />
+
+    <style name="Theme.Lugaluga.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Lugaluga.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Lugaluga.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

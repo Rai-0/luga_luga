@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".view.LoginActivity2">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:elevation="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -13,7 +23,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mtoolbar"
         app:srcCompat="@drawable/baseline_android_24" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -69,10 +79,17 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp" />
 
+    <TextView
+        android:id="@+id/fazercadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Fazer Cadastro"
+        app:layout_constraintTop_toBottomOf="@id/butao1"
+        android:textSize="15dp"
+        android:layout_marginTop="9dp"
 
-
-
-
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
