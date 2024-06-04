@@ -30,6 +30,9 @@ public class Usuario implements Parcelable {
 
      private String senha;
 
+    public Usuario() {
+    }
+
     protected Usuario(Parcel in) {
         nome = in.readString();
         cpf = in.readString();
